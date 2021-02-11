@@ -1,16 +1,11 @@
-html,
-body {
-  padding: 0;
+@import url('https://fonts.googleapis.com/css?family=Segoe+UI');
+
+p {
+  font-family: Segoe UI;
+}
+
+html, body {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  background-color: #F2F2F2;
 }

@@ -1,0 +1,29 @@
+.modal {
+  background-color: #F2F2F2;
+}
+
+.title {
+  text-align: center;
+}
+
+.inputs {
+  border: #707070;
+  border-radius: 5px;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .08);
+  height: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.placesInput {
+  border: #707070;
+  border-radius: 5px;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .08);
+  width: 80px;
+  height: 30px;
+}   

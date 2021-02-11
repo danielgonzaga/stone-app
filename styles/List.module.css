@@ -1,0 +1,97 @@
+.container {
+  margin: 10%;
+}
+
+.searchBar {
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #c2c2c2;
+  width: 100%;
+  height: 30px;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .05);
+}
+
+.searchIcon {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 8px;
+  line-height: 30px;
+  color: #ACA9A9;
+}
+
+.titleText {
+  font-size: 20px;
+  font-weight: bold;
+  color: #707070;
+  margin: 0;
+}
+
+.minorText {
+  font-size: 13px;
+  color: #ACA9A9;
+  margin: 0;
+}
+
+.card {
+  width: 100%;
+  height: 160px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .05);
+}
+
+.cardWrapper {
+  padding-top: 10px;
+  margin: 5%;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+.infosIcon {
+  color: #ACA9A9;
+}
+
+.clientBox {
+  position: absolute;
+  right: 17%;
+  width: 40px;
+  height: 22px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 12px;
+  background-color: #90C63B;
+  color: white;
+  line-height: 20px;
+  font-weight: bold;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .08);
+}
+
+.leadBox {
+  position: absolute;
+  right: 17%;
+  width: 40px;
+  height: 22px;
+  text-align: center;
+  border-radius: 4px;
+  margin-top: 5px;
+  font-size: 12px;
+  background-color: #8878e4;
+  color: white;
+  line-height: 20px;
+  font-weight: bold;
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, .08);
+}
+
+.plusIcon {
+  position: absolute;
+  font-weight: bold;
+  margin-top: 12px;
+  right: 17%;
+}
