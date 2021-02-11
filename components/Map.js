@@ -556,7 +556,7 @@ export class StoneMap extends Component {
           })}
 
           {this.state.leadsPins.filter(x => this.state.filteredSegments.includes(x.segment)).map(place => {
-            return this.state.showMarkerTpv20 && (
+            return (
               <Marker
                 id={place.id}
                 icon={place.icon}
